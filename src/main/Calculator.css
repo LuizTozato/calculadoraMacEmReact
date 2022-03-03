@@ -1,0 +1,10 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;/*terá 6 linhas. A primeira pega 1 fração, e o resto é dividido em 5 partes de 48px*/
+}   
